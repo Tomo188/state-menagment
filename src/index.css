@@ -1,0 +1,120 @@
+body{
+  font-family: sans-serif;
+  background-image: url("https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app05.jpg");
+  background: rgb(233, 208, 24);
+}
+a{
+  text-align: center;
+}
+article{
+  margin-top: 10px;
+  text-align: center;
+}
+
+img{
+  
+  width: 50%;
+  height: 100px;
+}
+table{
+  display: inline;
+  text-align: center;
+}
+.pokemonsContainer{
+  display:grid;
+  grid-template-columns: auto auto auto; 
+}
+
+.pokemons{
+  
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+}
+.item-grid{
+  grid-column: 1/4;
+}
+.pokemons h3,h4{
+  display:contents ;
+}
+th,td{
+  padding: 5px;
+  background-color: aquamarine;
+ 
+}
+
+
+.header{
+  top:15px;
+}
+.main{
+  margin-top: 75px;
+}
+h1,h2,h3{
+  text-align: center;
+}
+div{
+  
+  width:100vw;
+  height: 100vh;
+}
+footer{
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  
+}
+
+li{
+  margin: 0;
+  font-weight:100;
+  font-size: 22px;
+  
+}
+
+.header{
+  width: 100%;
+  position:relative;
+}
+h1{
+  
+  margin-top: 0;
+  color:rgb(19, 21, 21);
+  background-color: rgba(73, 12, 228, 0.3);
+  
+}
+h2{
+  
+  color: rgb(236, 9, 176);
+}
+h3{
+  color:blueviolet
+}
+ol{
+  
+  display: inline;
+  text-align: center;
+  color:rgb(44, 28, 189);
+}
+button{ 
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  min-width: fit-content;
+  min-height: fit-content;
+  box-shadow: -10px -5px 1px 0px rgb(53, 151, 221);
+}
+button:hover{
+  box-shadow: 10px 5px 1px 0px yellow;
+}
+button:active{
+  box-shadow: 0px 0px 20px 10px green;
+  background-color: green;
+  color:green;
+}
+input{
+  
+  box-shadow: 10px 5px 1px 0px;
+}
