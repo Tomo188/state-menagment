@@ -26,7 +26,7 @@ export function Route1() {
       return previousState;
     })}}>{count}</button>
     </article>
-    <Reducer>Tomo</Reducer>
+    <Reducer>Name</Reducer>
     < Memo />
     <Effect />
     <Ref />
